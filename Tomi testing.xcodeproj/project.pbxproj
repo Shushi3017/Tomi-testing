@@ -11,6 +11,9 @@
 		5513110E30B694C000821EFB /* Launch Screen 2.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5513110D30B694C000821EFB /* Launch Screen 2.storyboard */; };
 		5513111030B6961200821EFB /* NoteFormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5513110F30B6961200821EFB /* NoteFormViewController.swift */; };
 		5513111330B69DA400821EFB /* StudentOrganizer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5513111130B69DA400821EFB /* StudentOrganizer.xcdatamodeld */; };
+		5513111530B6AC8900821EFB /* NoteDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5513111430B6AC8900821EFB /* NoteDetailViewController.swift */; };
+		5513111730B6B12400821EFB /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5513111630B6B12400821EFB /* CoreDataStack.swift */; };
+		5513111930B6B14F00821EFB /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5513111830B6B14F00821EFB /* Helpers.swift */; };
 		69EB2C6930B6819300233E43 /* Tomi_testingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69EB2C6830B6819300233E43 /* Tomi_testingApp.swift */; };
 		69EB2C6B30B6819300233E43 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69EB2C6A30B6819300233E43 /* ContentView.swift */; };
 		69EB2C6D30B6819600233E43 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69EB2C6C30B6819600233E43 /* Assets.xcassets */; };
@@ -42,6 +45,9 @@
 		5513110D30B694C000821EFB /* Launch Screen 2.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen 2.storyboard"; sourceTree = "<group>"; };
 		5513110F30B6961200821EFB /* NoteFormViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteFormViewController.swift; sourceTree = "<group>"; };
 		5513111230B69DA400821EFB /* StudentOrganizer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = StudentOrganizer.xcdatamodel; sourceTree = "<group>"; };
+		5513111430B6AC8900821EFB /* NoteDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteDetailViewController.swift; sourceTree = "<group>"; };
+		5513111630B6B12400821EFB /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
+		5513111830B6B14F00821EFB /* Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
 		69EB2C6530B6819300233E43 /* Tomi testing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tomi testing.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		69EB2C6830B6819300233E43 /* Tomi_testingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tomi_testingApp.swift; sourceTree = "<group>"; };
 		69EB2C6A30B6819300233E43 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -83,6 +89,9 @@
 		69EB2C5C30B6819300233E43 = {
 			isa = PBXGroup;
 			children = (
+				5513111830B6B14F00821EFB /* Helpers.swift */,
+				5513111630B6B12400821EFB /* CoreDataStack.swift */,
+				5513111430B6AC8900821EFB /* NoteDetailViewController.swift */,
 				5513110D30B694C000821EFB /* Launch Screen 2.storyboard */,
 				5513110930B6948A00821EFB /* Storyboard.storyboard */,
 				5513111130B69DA400821EFB /* StudentOrganizer.xcdatamodeld */,
@@ -274,7 +283,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				69EB2C6B30B6819300233E43 /* ContentView.swift in Sources */,
+				5513111930B6B14F00821EFB /* Helpers.swift in Sources */,
 				5513111330B69DA400821EFB /* StudentOrganizer.xcdatamodeld in Sources */,
+				5513111530B6AC8900821EFB /* NoteDetailViewController.swift in Sources */,
+				5513111730B6B12400821EFB /* CoreDataStack.swift in Sources */,
 				69EB2C6930B6819300233E43 /* Tomi_testingApp.swift in Sources */,
 				5513111030B6961200821EFB /* NoteFormViewController.swift in Sources */,
 			);
@@ -511,16 +523,18 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MACOSX_DEPLOYMENT_TARGET = 13.7;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "feutech.Tomi-testingTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tomi testing.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Tomi testing";
 			};
 			name = Debug;
@@ -533,16 +547,18 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MACOSX_DEPLOYMENT_TARGET = 13.7;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "feutech.Tomi-testingTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tomi testing.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Tomi testing";
 			};
 			name = Release;
@@ -554,16 +570,18 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MACOSX_DEPLOYMENT_TARGET = 13.7;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "feutech.Tomi-testingUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 				TEST_TARGET_NAME = "Tomi testing";
 			};
 			name = Debug;
@@ -575,16 +593,18 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MACOSX_DEPLOYMENT_TARGET = 13.7;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "feutech.Tomi-testingUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 				TEST_TARGET_NAME = "Tomi testing";
 			};
 			name = Release;
