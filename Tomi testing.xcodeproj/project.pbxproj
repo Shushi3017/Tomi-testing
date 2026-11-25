@@ -10,7 +10,6 @@
 		2BC7800530B6B9FF00D56610 /* NotesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BC7800430B6B9FF00D56610 /* NotesViewController.swift */; };
 		2BC7800730B6BB8400D56610 /* NoteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BC7800630B6BB8400D56610 /* NoteCell.swift */; };
 		2BC7800930B6C23E00D56610 /* NoteFormviewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BC7800830B6C23E00D56610 /* NoteFormviewController.swift */; };
-		5513110A30B6948A00821EFB /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5513110930B6948A00821EFB /* Storyboard.storyboard */; };
 		5513110E30B694C000821EFB /* Launch Screen 2.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5513110D30B694C000821EFB /* Launch Screen 2.storyboard */; };
 		5513111030B6961200821EFB /* NoteFormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5513110F30B6961200821EFB /* NoteFormViewController.swift */; };
 		5513111330B69DA400821EFB /* StudentOrganizer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5513111130B69DA400821EFB /* StudentOrganizer.xcdatamodeld */; };
@@ -47,6 +46,7 @@
 		2BC7800430B6B9FF00D56610 /* NotesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesViewController.swift; sourceTree = "<group>"; };
 		2BC7800630B6BB8400D56610 /* NoteCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteCell.swift; sourceTree = "<group>"; };
 		2BC7800830B6C23E00D56610 /* NoteFormviewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteFormviewController.swift; sourceTree = "<group>"; };
+		2BC7802030B6CF8C00D56610 /* Storyboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
 		5513110930B6948A00821EFB /* Storyboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
 		5513110D30B694C000821EFB /* Launch Screen 2.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen 2.storyboard"; sourceTree = "<group>"; };
 		5513110F30B6961200821EFB /* NoteFormViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteFormViewController.swift; sourceTree = "<group>"; };
@@ -103,6 +103,7 @@
 				5513111430B6AC8900821EFB /* NoteDetailViewController.swift */,
 				5513110D30B694C000821EFB /* Launch Screen 2.storyboard */,
 				5513110930B6948A00821EFB /* Storyboard.storyboard */,
+				2BC7802030B6CF8C00D56610 /* Storyboard.storyboard */,
 				5513111130B69DA400821EFB /* StudentOrganizer.xcdatamodeld */,
 				5513110F30B6961200821EFB /* NoteFormViewController.swift */,
 				69EB2C6730B6819300233E43 /* Tomi testing */,
@@ -155,7 +156,6 @@
 			children = (
 				69EB2C8430B6819600233E43 /* Tomi_testingUITests.swift */,
 				69EB2C8630B6819600233E43 /* Tomi_testingUITestsLaunchTests.swift */,
-				2BC7801630B6C8B500D56610 /* testTests.swift */,
 			);
 			path = "Tomi testingUITests";
 			sourceTree = "<group>";
@@ -267,7 +267,6 @@
 				69EB2C7130B6819600233E43 /* Preview Assets.xcassets in Resources */,
 				69EB2C6D30B6819600233E43 /* Assets.xcassets in Resources */,
 				5513110E30B694C000821EFB /* Launch Screen 2.storyboard in Resources */,
-				2BC7801430B6C86700D56610 /* Storyboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
