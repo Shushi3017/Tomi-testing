@@ -10,6 +10,7 @@ import XCTest
 final class Tomi_testingTests: XCTestCase {
 
     override func setUpWithError() throws {
+        print("hello the world")
         // Put setup code here. This method is called before the invocation of each test method in the class.
     }
 
