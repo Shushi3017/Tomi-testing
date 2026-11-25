@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		5513110A30B6948A00821EFB /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5513110930B6948A00821EFB /* Storyboard.storyboard */; };
 		5513110E30B694C000821EFB /* Launch Screen 2.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5513110D30B694C000821EFB /* Launch Screen 2.storyboard */; };
+		5513111030B6961200821EFB /* NoteFormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5513110F30B6961200821EFB /* NoteFormViewController.swift */; };
+		5513111330B69DA400821EFB /* StudentOrganizer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5513111130B69DA400821EFB /* StudentOrganizer.xcdatamodeld */; };
 		69EB2C6930B6819300233E43 /* Tomi_testingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69EB2C6830B6819300233E43 /* Tomi_testingApp.swift */; };
 		69EB2C6B30B6819300233E43 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69EB2C6A30B6819300233E43 /* ContentView.swift */; };
 		69EB2C6D30B6819600233E43 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69EB2C6C30B6819600233E43 /* Assets.xcassets */; };
@@ -38,6 +40,8 @@
 /* Begin PBXFileReference section */
 		5513110930B6948A00821EFB /* Storyboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
 		5513110D30B694C000821EFB /* Launch Screen 2.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen 2.storyboard"; sourceTree = "<group>"; };
+		5513110F30B6961200821EFB /* NoteFormViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteFormViewController.swift; sourceTree = "<group>"; };
+		5513111230B69DA400821EFB /* StudentOrganizer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = StudentOrganizer.xcdatamodel; sourceTree = "<group>"; };
 		69EB2C6530B6819300233E43 /* Tomi testing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tomi testing.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		69EB2C6830B6819300233E43 /* Tomi_testingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tomi_testingApp.swift; sourceTree = "<group>"; };
 		69EB2C6A30B6819300233E43 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -81,6 +85,8 @@
 			children = (
 				5513110D30B694C000821EFB /* Launch Screen 2.storyboard */,
 				5513110930B6948A00821EFB /* Storyboard.storyboard */,
+				5513111130B69DA400821EFB /* StudentOrganizer.xcdatamodeld */,
+				5513110F30B6961200821EFB /* NoteFormViewController.swift */,
 				69EB2C6730B6819300233E43 /* Tomi testing */,
 				69EB2C7930B6819600233E43 /* Tomi testingTests */,
 				69EB2C8330B6819600233E43 /* Tomi testingUITests */,
@@ -268,7 +274,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				69EB2C6B30B6819300233E43 /* ContentView.swift in Sources */,
+				5513111330B69DA400821EFB /* StudentOrganizer.xcdatamodeld in Sources */,
 				69EB2C6930B6819300233E43 /* Tomi_testingApp.swift in Sources */,
+				5513111030B6961200821EFB /* NoteFormViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -438,9 +446,9 @@
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 13.7;
@@ -449,9 +457,11 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -474,9 +484,9 @@
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 13.7;
@@ -485,9 +495,11 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -617,6 +629,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		5513111130B69DA400821EFB /* StudentOrganizer.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				5513111230B69DA400821EFB /* StudentOrganizer.xcdatamodel */,
+			);
+			currentVersion = 5513111230B69DA400821EFB /* StudentOrganizer.xcdatamodel */;
+			path = StudentOrganizer.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 69EB2C5D30B6819300233E43 /* Project object */;
 }
