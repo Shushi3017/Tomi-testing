@@ -37,4 +37,3 @@ class NoteCell: UICollectionViewCell {
     photoImageView.image = nil
     }
     }
-}

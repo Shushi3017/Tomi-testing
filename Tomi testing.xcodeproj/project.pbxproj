@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		2BC7800530B6B9FF00D56610 /* NotesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BC7800430B6B9FF00D56610 /* NotesViewController.swift */; };
 		2BC7800730B6BB8400D56610 /* NoteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BC7800630B6BB8400D56610 /* NoteCell.swift */; };
-		2BC7800930B6C23E00D56610 /* NoteFormviewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BC7800830B6C23E00D56610 /* NoteFormviewController.swift */; };
 		5513110E30B694C000821EFB /* Launch Screen 2.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5513110D30B694C000821EFB /* Launch Screen 2.storyboard */; };
 		5513111030B6961200821EFB /* NoteFormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5513110F30B6961200821EFB /* NoteFormViewController.swift */; };
 		5513111330B69DA400821EFB /* StudentOrganizer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5513111130B69DA400821EFB /* StudentOrganizer.xcdatamodeld */; };
@@ -18,8 +17,8 @@
 		5513111930B6B14F00821EFB /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5513111830B6B14F00821EFB /* Helpers.swift */; };
 		5513111D30B6D17F00821EFB /* TaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5513111C30B6D17F00821EFB /* TaskViewController.swift */; };
 		5513111F30B6D1C400821EFB /* TaskFormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5513111E30B6D1C400821EFB /* TaskFormViewController.swift */; };
-		69EB2C6930B6819300233E43 /* Tomi_testingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69EB2C6830B6819300233E43 /* Tomi_testingApp.swift */; };
-		69EB2C6B30B6819300233E43 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69EB2C6A30B6819300233E43 /* ContentView.swift */; };
+		5513112130B6D8AD00821EFB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5513112030B6D8AD00821EFB /* AppDelegate.swift */; };
+		5513112330B6D8DE00821EFB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5513112230B6D8DE00821EFB /* SceneDelegate.swift */; };
 		69EB2C6D30B6819600233E43 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69EB2C6C30B6819600233E43 /* Assets.xcassets */; };
 		69EB2C7130B6819600233E43 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69EB2C7030B6819600233E43 /* Preview Assets.xcassets */; };
 		69EB2C7B30B6819600233E43 /* Tomi_testingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69EB2C7A30B6819600233E43 /* Tomi_testingTests.swift */; };
@@ -47,7 +46,6 @@
 /* Begin PBXFileReference section */
 		2BC7800430B6B9FF00D56610 /* NotesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesViewController.swift; sourceTree = "<group>"; };
 		2BC7800630B6BB8400D56610 /* NoteCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteCell.swift; sourceTree = "<group>"; };
-		2BC7800830B6C23E00D56610 /* NoteFormviewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteFormviewController.swift; sourceTree = "<group>"; };
 		2BC7802030B6CF8C00D56610 /* Storyboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
 		5513110930B6948A00821EFB /* Storyboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
 		5513110D30B694C000821EFB /* Launch Screen 2.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen 2.storyboard"; sourceTree = "<group>"; };
@@ -58,9 +56,9 @@
 		5513111830B6B14F00821EFB /* Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
 		5513111C30B6D17F00821EFB /* TaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskViewController.swift; sourceTree = "<group>"; };
 		5513111E30B6D1C400821EFB /* TaskFormViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskFormViewController.swift; sourceTree = "<group>"; };
+		5513112030B6D8AD00821EFB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5513112230B6D8DE00821EFB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		69EB2C6530B6819300233E43 /* Tomi testing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tomi testing.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		69EB2C6830B6819300233E43 /* Tomi_testingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tomi_testingApp.swift; sourceTree = "<group>"; };
-		69EB2C6A30B6819300233E43 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		69EB2C6C30B6819600233E43 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		69EB2C6E30B6819600233E43 /* Tomi_testing.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Tomi_testing.entitlements; sourceTree = "<group>"; };
 		69EB2C7030B6819600233E43 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -101,7 +99,6 @@
 			children = (
 				5513111E30B6D1C400821EFB /* TaskFormViewController.swift */,
 				5513111C30B6D17F00821EFB /* TaskViewController.swift */,
-				2BC7800830B6C23E00D56610 /* NoteFormviewController.swift */,
 				2BC7800630B6BB8400D56610 /* NoteCell.swift */,
 				2BC7800430B6B9FF00D56610 /* NotesViewController.swift */,
 				5513111830B6B14F00821EFB /* Helpers.swift */,
@@ -132,8 +129,8 @@
 		69EB2C6730B6819300233E43 /* Tomi testing */ = {
 			isa = PBXGroup;
 			children = (
-				69EB2C6830B6819300233E43 /* Tomi_testingApp.swift */,
-				69EB2C6A30B6819300233E43 /* ContentView.swift */,
+				5513112030B6D8AD00821EFB /* AppDelegate.swift */,
+				5513112230B6D8DE00821EFB /* SceneDelegate.swift */,
 				69EB2C6C30B6819600233E43 /* Assets.xcassets */,
 				69EB2C6E30B6819600233E43 /* Tomi_testing.entitlements */,
 				69EB2C6F30B6819600233E43 /* Preview Content */,
@@ -297,17 +294,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				69EB2C6B30B6819300233E43 /* ContentView.swift in Sources */,
 				5513111930B6B14F00821EFB /* Helpers.swift in Sources */,
 				5513111330B69DA400821EFB /* StudentOrganizer.xcdatamodeld in Sources */,
 				5513111530B6AC8900821EFB /* NoteDetailViewController.swift in Sources */,
 				2BC7800530B6B9FF00D56610 /* NotesViewController.swift in Sources */,
 				5513111730B6B12400821EFB /* CoreDataStack.swift in Sources */,
-				2BC7800930B6C23E00D56610 /* NoteFormviewController.swift in Sources */,
 				2BC7800730B6BB8400D56610 /* NoteCell.swift in Sources */,
-				69EB2C6930B6819300233E43 /* Tomi_testingApp.swift in Sources */,
 				5513111F30B6D1C400821EFB /* TaskFormViewController.swift in Sources */,
+				5513112330B6D8DE00821EFB /* SceneDelegate.swift in Sources */,
 				5513111D30B6D17F00821EFB /* TaskViewController.swift in Sources */,
+				5513112130B6D8AD00821EFB /* AppDelegate.swift in Sources */,
 				5513111030B6961200821EFB /* NoteFormViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

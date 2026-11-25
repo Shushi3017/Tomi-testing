@@ -1,6 +1,6 @@
-mport UIKit
+import UIKit
 import PhotosUI
-class NoteFormViewController: UIViewController, PHPickerViewControllerDelegate {
+ class NoteFormViewController: UIViewController, PHPickerViewControllerDelegate {
 // MARK: - Data passed in from NotesViewController
 var subject: Subject?
 // The photo the student picked (nil = no photo).
