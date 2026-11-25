@@ -1,4 +1,4 @@
-import UIKit
+mport UIKit
 import PhotosUI
 class NoteFormViewController: UIViewController, PHPickerViewControllerDelegate {
 // MARK: - Data passed in from NotesViewController
@@ -72,17 +72,6 @@ note.subject = subject
     self?.photoImageView.image = smallImage
     self?.photoImageView.contentMode = .scaleAspectFit
     }
-    }
-    }
-    // MARK: - Navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-    switch segue.identifier {
-    case "ShowNoteFormSegue":
-    guard let destination = segue.destination as? NoteFormViewController
-    else { return }
-    destination.subject = subject
-    default:
-    break
     }
     }
     }

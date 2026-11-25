@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		2BC7800530B6B9FF00D56610 /* NotesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BC7800430B6B9FF00D56610 /* NotesViewController.swift */; };
 		2BC7800730B6BB8400D56610 /* NoteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BC7800630B6BB8400D56610 /* NoteCell.swift */; };
+		2BC7800930B6C23E00D56610 /* NoteFormviewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BC7800830B6C23E00D56610 /* NoteFormviewController.swift */; };
 		5513110A30B6948A00821EFB /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5513110930B6948A00821EFB /* Storyboard.storyboard */; };
 		5513110E30B694C000821EFB /* Launch Screen 2.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5513110D30B694C000821EFB /* Launch Screen 2.storyboard */; };
 		5513111030B6961200821EFB /* NoteFormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5513110F30B6961200821EFB /* NoteFormViewController.swift */; };
@@ -45,6 +46,7 @@
 /* Begin PBXFileReference section */
 		2BC7800430B6B9FF00D56610 /* NotesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesViewController.swift; sourceTree = "<group>"; };
 		2BC7800630B6BB8400D56610 /* NoteCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteCell.swift; sourceTree = "<group>"; };
+		2BC7800830B6C23E00D56610 /* NoteFormviewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteFormviewController.swift; sourceTree = "<group>"; };
 		5513110930B6948A00821EFB /* Storyboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
 		5513110D30B694C000821EFB /* Launch Screen 2.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen 2.storyboard"; sourceTree = "<group>"; };
 		5513110F30B6961200821EFB /* NoteFormViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteFormViewController.swift; sourceTree = "<group>"; };
@@ -93,6 +95,7 @@
 		69EB2C5C30B6819300233E43 = {
 			isa = PBXGroup;
 			children = (
+				2BC7800830B6C23E00D56610 /* NoteFormviewController.swift */,
 				2BC7800630B6BB8400D56610 /* NoteCell.swift */,
 				2BC7800430B6B9FF00D56610 /* NotesViewController.swift */,
 				5513111830B6B14F00821EFB /* Helpers.swift */,
@@ -294,6 +297,7 @@
 				5513111530B6AC8900821EFB /* NoteDetailViewController.swift in Sources */,
 				2BC7800530B6B9FF00D56610 /* NotesViewController.swift in Sources */,
 				5513111730B6B12400821EFB /* CoreDataStack.swift in Sources */,
+				2BC7800930B6C23E00D56610 /* NoteFormviewController.swift in Sources */,
 				2BC7800730B6BB8400D56610 /* NoteCell.swift in Sources */,
 				69EB2C6930B6819300233E43 /* Tomi_testingApp.swift in Sources */,
 				5513111030B6961200821EFB /* NoteFormViewController.swift in Sources */,
