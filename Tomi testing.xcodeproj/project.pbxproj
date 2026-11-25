@@ -155,6 +155,7 @@
 			children = (
 				69EB2C8430B6819600233E43 /* Tomi_testingUITests.swift */,
 				69EB2C8630B6819600233E43 /* Tomi_testingUITestsLaunchTests.swift */,
+				2BC7801630B6C8B500D56610 /* testTests.swift */,
 			);
 			path = "Tomi testingUITests";
 			sourceTree = "<group>";
@@ -266,7 +267,7 @@
 				69EB2C7130B6819600233E43 /* Preview Assets.xcassets in Resources */,
 				69EB2C6D30B6819600233E43 /* Assets.xcassets in Resources */,
 				5513110E30B694C000821EFB /* Launch Screen 2.storyboard in Resources */,
-				5513110A30B6948A00821EFB /* Storyboard.storyboard in Resources */,
+				2BC7801430B6C86700D56610 /* Storyboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
