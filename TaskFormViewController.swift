@@ -23,7 +23,8 @@ prioritySegmentedControl.selectedSegmentIndex = Int(task.priority)
 completedSwitch.isOn = task.isDone
 } else {
 title = "New Task"
-dueDatePicker.date = Date()
+
+    dueDatePicker.date = Date()
 }
 // Tap anywhere on the background to hide the keyboard.
 let tap = UITapGestureRecognizer(target: self, action: #selector(dismissKeyboard))
