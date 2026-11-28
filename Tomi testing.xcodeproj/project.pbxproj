@@ -7,8 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		69EB2C6930B6819300233E43 /* Tomi_testingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69EB2C6830B6819300233E43 /* Tomi_testingApp.swift */; };
-		69EB2C6B30B6819300233E43 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69EB2C6A30B6819300233E43 /* ContentView.swift */; };
+		2BC7800530B6B9FF00D56610 /* NotesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BC7800430B6B9FF00D56610 /* NotesViewController.swift */; };
+		2BC7800730B6BB8400D56610 /* NoteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BC7800630B6BB8400D56610 /* NoteCell.swift */; };
+		5513110E30B694C000821EFB /* Launch Screen 2.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5513110D30B694C000821EFB /* Launch Screen 2.storyboard */; };
+		5513111030B6961200821EFB /* NoteFormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5513110F30B6961200821EFB /* NoteFormViewController.swift */; };
+		5513111330B69DA400821EFB /* StudentOrganizer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5513111130B69DA400821EFB /* StudentOrganizer.xcdatamodeld */; };
+		5513111530B6AC8900821EFB /* NoteDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5513111430B6AC8900821EFB /* NoteDetailViewController.swift */; };
+		5513111730B6B12400821EFB /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5513111630B6B12400821EFB /* CoreDataStack.swift */; };
+		5513111930B6B14F00821EFB /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5513111830B6B14F00821EFB /* Helpers.swift */; };
+		5513111D30B6D17F00821EFB /* TaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5513111C30B6D17F00821EFB /* TaskViewController.swift */; };
+		5513111F30B6D1C400821EFB /* TaskFormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5513111E30B6D1C400821EFB /* TaskFormViewController.swift */; };
+		5591595830B7DDA600511322 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5591595730B7DDA600511322 /* ContentView.swift */; };
+		5591595A30B7DDD700511322 /* Tomi_testingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5591595930B7DDD700511322 /* Tomi_testingApp.swift */; };
+		5591595B30B7E04A00511322 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5513110930B6948A00821EFB /* Storyboard.storyboard */; };
+		5591595C30B7E04C00511322 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5513110930B6948A00821EFB /* Storyboard.storyboard */; };
+		5591595E30B7E10100511322 /* SubjectsViewControllerTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5591595D30B7E10100511322 /* SubjectsViewControllerTableViewController.swift */; };
 		69EB2C6D30B6819600233E43 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69EB2C6C30B6819600233E43 /* Assets.xcassets */; };
 		69EB2C7130B6819600233E43 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69EB2C7030B6819600233E43 /* Preview Assets.xcassets */; };
 		69EB2C7B30B6819600233E43 /* Tomi_testingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69EB2C7A30B6819600233E43 /* Tomi_testingTests.swift */; };
@@ -34,9 +47,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2BC7800430B6B9FF00D56610 /* NotesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesViewController.swift; sourceTree = "<group>"; };
+		2BC7800630B6BB8400D56610 /* NoteCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteCell.swift; sourceTree = "<group>"; };
+		2BC7802030B6CF8C00D56610 /* Storyboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		5513110930B6948A00821EFB /* Storyboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		5513110D30B694C000821EFB /* Launch Screen 2.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen 2.storyboard"; sourceTree = "<group>"; };
+		5513110F30B6961200821EFB /* NoteFormViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteFormViewController.swift; sourceTree = "<group>"; };
+		5513111230B69DA400821EFB /* StudentOrganizer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = StudentOrganizer.xcdatamodel; sourceTree = "<group>"; };
+		5513111430B6AC8900821EFB /* NoteDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteDetailViewController.swift; sourceTree = "<group>"; };
+		5513111630B6B12400821EFB /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
+		5513111830B6B14F00821EFB /* Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
+		5513111C30B6D17F00821EFB /* TaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskViewController.swift; sourceTree = "<group>"; };
+		5513111E30B6D1C400821EFB /* TaskFormViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskFormViewController.swift; sourceTree = "<group>"; };
+		5591595730B7DDA600511322 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ContentView.swift; path = ../ContentView.swift; sourceTree = "<group>"; };
+		5591595930B7DDD700511322 /* Tomi_testingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Tomi_testingApp.swift; path = ../Tomi_testingApp.swift; sourceTree = "<group>"; };
+		5591595D30B7E10100511322 /* SubjectsViewControllerTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubjectsViewControllerTableViewController.swift; sourceTree = "<group>"; };
 		69EB2C6530B6819300233E43 /* Tomi testing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tomi testing.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		69EB2C6830B6819300233E43 /* Tomi_testingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tomi_testingApp.swift; sourceTree = "<group>"; };
-		69EB2C6A30B6819300233E43 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		69EB2C6C30B6819600233E43 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		69EB2C6E30B6819600233E43 /* Tomi_testing.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Tomi_testing.entitlements; sourceTree = "<group>"; };
 		69EB2C7030B6819600233E43 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -75,6 +101,18 @@
 		69EB2C5C30B6819300233E43 = {
 			isa = PBXGroup;
 			children = (
+				5591595D30B7E10100511322 /* SubjectsViewControllerTableViewController.swift */,
+				5513111E30B6D1C400821EFB /* TaskFormViewController.swift */,
+				5513111C30B6D17F00821EFB /* TaskViewController.swift */,
+				2BC7800630B6BB8400D56610 /* NoteCell.swift */,
+				2BC7800430B6B9FF00D56610 /* NotesViewController.swift */,
+				5513111830B6B14F00821EFB /* Helpers.swift */,
+				5513111630B6B12400821EFB /* CoreDataStack.swift */,
+				5513111430B6AC8900821EFB /* NoteDetailViewController.swift */,
+				5513110D30B694C000821EFB /* Launch Screen 2.storyboard */,
+				2BC7802030B6CF8C00D56610 /* Storyboard.storyboard */,
+				5513111130B69DA400821EFB /* StudentOrganizer.xcdatamodeld */,
+				5513110F30B6961200821EFB /* NoteFormViewController.swift */,
 				69EB2C6730B6819300233E43 /* Tomi testing */,
 				69EB2C7930B6819600233E43 /* Tomi testingTests */,
 				69EB2C8330B6819600233E43 /* Tomi testingUITests */,
@@ -95,8 +133,9 @@
 		69EB2C6730B6819300233E43 /* Tomi testing */ = {
 			isa = PBXGroup;
 			children = (
-				69EB2C6830B6819300233E43 /* Tomi_testingApp.swift */,
-				69EB2C6A30B6819300233E43 /* ContentView.swift */,
+				5591595930B7DDD700511322 /* Tomi_testingApp.swift */,
+				5591595730B7DDA600511322 /* ContentView.swift */,
+				5513110930B6948A00821EFB /* Storyboard.storyboard */,
 				69EB2C6C30B6819600233E43 /* Assets.xcassets */,
 				69EB2C6E30B6819600233E43 /* Tomi_testing.entitlements */,
 				69EB2C6F30B6819600233E43 /* Preview Content */,
@@ -234,7 +273,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				69EB2C7130B6819600233E43 /* Preview Assets.xcassets in Resources */,
+				5591595B30B7E04A00511322 /* Storyboard.storyboard in Resources */,
 				69EB2C6D30B6819600233E43 /* Assets.xcassets in Resources */,
+				5513110E30B694C000821EFB /* Launch Screen 2.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,6 +283,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5591595C30B7E04C00511322 /* Storyboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,8 +301,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				69EB2C6B30B6819300233E43 /* ContentView.swift in Sources */,
-				69EB2C6930B6819300233E43 /* Tomi_testingApp.swift in Sources */,
+				5513111930B6B14F00821EFB /* Helpers.swift in Sources */,
+				5513111330B69DA400821EFB /* StudentOrganizer.xcdatamodeld in Sources */,
+				5591595830B7DDA600511322 /* ContentView.swift in Sources */,
+				5513111530B6AC8900821EFB /* NoteDetailViewController.swift in Sources */,
+				2BC7800530B6B9FF00D56610 /* NotesViewController.swift in Sources */,
+				5513111730B6B12400821EFB /* CoreDataStack.swift in Sources */,
+				2BC7800730B6BB8400D56610 /* NoteCell.swift in Sources */,
+				5591595E30B7E10100511322 /* SubjectsViewControllerTableViewController.swift in Sources */,
+				5591595A30B7DDD700511322 /* Tomi_testingApp.swift in Sources */,
+				5513111F30B6D1C400821EFB /* TaskFormViewController.swift in Sources */,
+				5513111D30B6D17F00821EFB /* TaskViewController.swift in Sources */,
+				5513111030B6961200821EFB /* NoteFormViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -420,6 +472,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Tomi testing/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
@@ -430,9 +483,9 @@
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 13.7;
@@ -441,9 +494,11 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -456,6 +511,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Tomi testing/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
@@ -466,9 +522,9 @@
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 13.7;
@@ -477,9 +533,11 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -491,16 +549,18 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MACOSX_DEPLOYMENT_TARGET = 13.7;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "feutech.Tomi-testingTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tomi testing.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Tomi testing";
 			};
 			name = Debug;
@@ -513,16 +573,18 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MACOSX_DEPLOYMENT_TARGET = 13.7;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "feutech.Tomi-testingTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tomi testing.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Tomi testing";
 			};
 			name = Release;
@@ -534,16 +596,18 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MACOSX_DEPLOYMENT_TARGET = 13.7;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "feutech.Tomi-testingUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 				TEST_TARGET_NAME = "Tomi testing";
 			};
 			name = Debug;
@@ -555,16 +619,18 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MACOSX_DEPLOYMENT_TARGET = 13.7;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "feutech.Tomi-testingUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 				TEST_TARGET_NAME = "Tomi testing";
 			};
 			name = Release;
@@ -609,6 +675,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		5513111130B69DA400821EFB /* StudentOrganizer.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				5513111230B69DA400821EFB /* StudentOrganizer.xcdatamodel */,
+			);
+			currentVersion = 5513111230B69DA400821EFB /* StudentOrganizer.xcdatamodel */;
+			path = StudentOrganizer.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 69EB2C5D30B6819300233E43 /* Project object */;
 }
